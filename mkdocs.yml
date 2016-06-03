@@ -1,0 +1,58 @@
+site_name: glomex docs
+
+pages:    
+- Welcome: index.md
+- Player QuickStart:
+    - 'Read Me First': 'vvsfast/index.md'
+    - 'Player Formats': 'vvsfast/playerformats.md'
+    - 'Player Object Model': 'vvsfast/playerobjectmodel.md' 
+    - 'Loading & Calling the Player': 'vvsfast/calling.md'
+    - 'CopyCode: Calling the Player': 'vvsfast/callcode.md'
+    - 'CodeInteractive: Calling the Player': 'vvsfast/code.md'
+    - 'Player Events': 'vvsfast/events.md'
+    - 'CopyCode: Handling Player Events': 'vvsfast/onevents.md'     
+    - 'The AdScheduler': 'vvsfast/ad-scheduler.md'
+    - 'Using the AdScheduler': 'vvsfast/construct.md'
+    - 'Task List: Integrating the AdScheduler': 'vvsfast/ad-scheduler2.md'
+    - 'CopyCode: Integrating the AdScheduler': 'vvsfast/ad-integration.md'
+    
+- Player Reference:
+    - 'Read Me First': 'vvsref/playerrefintro.md'
+    - 'Player Methods: General': 'vvsref/api.md'
+    - 'Player Methods: Adding and Removing Content': 'vvsref/addcontent.md'
+    - 'The Content Data Model': 'vvsref/contentdatamodel.md'
+    - 'Tracked Player Events': 'vvsref/listevents.md'  
+    - 'Diagram: Event Tracking': 'vvsref/tracking.md'
+    - 'Tracking Event Names': 'vvsref/events-tracking.md'
+    - 'Tracking Event Payloads': 'vvsref/payload-tracking.md'
+    - 'Tracking Event Media Types': 'vvsref/mediatypes-tracking.md'
+    - 'The Ad Data Model': 'vvsref/addatamodel-tracking.md'
+    - 'Player Events Related to AdScheduler': 'vvsref/ad-parameters.md'
+    - 'The AdSchedule Object': 'vvsref/ad-datastruct.md'
+    - 'Appendix A: Legacy Functions': 'vvsref/legacy.md'
+    
+- Video:
+    - 'Read Me First': 'video/videointro.md'
+    - 'Diagram: Event Tracking': 'video/video1.md'
+    - 'Tracking Events': 'video/video2.md'
+    
+- Metadata:
+    - 'Read Me First': 'metadata/metadataintro.md'
+    - 'Diagram: Event Tracking': 'metadata/metadata1.md'
+    - 'Tracking Events': 'metadata/metadata2.md'
+    
+- LOGIN:
+    - 'Read Me First': 'internal/internalintro.md'
+    - 'Template: Read Me First': 'internal/internaltemplate.md'
+    - 'Style Guide': 'internal/internalstyle.md'
+    - 'Glossary': 'internal/internalglossary.md'
+    - 'Glossary of Acronyms': 'internal/internalacronyms.md'
+    - 'Documentation Workflow': 'internal/docworkflow.md'
+    
+    
+theme: cinder
+use_directory_urls: false
+
+# repo_url: https://github.com/dwilson777/glomexdoc
+site_description: This is the documentation site for glomex.
+copyright: Copyright (c) 2016 by glomex GmbH.  All rights reserved. 

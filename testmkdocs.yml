@@ -1,0 +1,7 @@
+site_name: glomex Docs
+
+pages:    
+- Welcome!: welcome.md    
+- INTERNAL: internal.md
+
+theme: cinder  
